@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Eloom_WhatsAppContact::config"
+             title="WhatsApp Contact"
+             module="Eloom_WhatsAppContact"
+             action="adminhtml/system_config/edit/section/eloom_whatsapp_contact"
+             parent="Eloom_Core::menu"
+             resource="Eloom_WhatsAppContact::config"
+             sortOrder="40"/>
+    </menu>
+</config>

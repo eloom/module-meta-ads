@@ -1,0 +1,43 @@
+{
+  "name": "eloom/module-meta-ads",
+  "description": "Meta Ads para Magento",
+  "homepage": "https://eloom.com.br/",
+  "keywords": [
+    "magento",
+    "magento 2",
+    "commerce",
+    "ecommerce",
+    "e-commerce",
+    "shop",
+    "WhatsApp",
+    "eloom"
+  ],
+  "authors": [
+    {
+      "name": "eloom.com.br",
+      "email": "contato@eloom.com.br"
+    }
+  ],
+  "support": {
+    "email": "contato@eloom.com.br"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "~8.3",
+    "magento/framework": "103.0.*",
+    "eloom/module-core": "dev-main"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "src/module-meta-ads/registration.php"
+    ],
+    "psr-4": {
+      "Eloom\\MetaAds\\": "src/module-meta-ads"
+    }
+  }
+}

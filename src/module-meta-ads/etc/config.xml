@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <eloom_meta_ads>
+            <general>
+                <active>0</active>
+            </general>
+            <events>
+                <view_content>1</view_content>
+                <search>1</search>
+                <add_to_cart>1</add_to_cart>
+                <initiate_checkout>1</initiate_checkout>
+                <purchase>1</purchase>
+            </events>
+        </eloom_meta_ads>
+    </default>
+</config>

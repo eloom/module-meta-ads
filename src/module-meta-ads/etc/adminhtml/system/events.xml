@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<include xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_include.xsd">
+
+	<field id="view_content" translate="label" type="select" sortOrder="21" showInDefault="1" showInWebsite="1" showInStore="0">
+		<label>View Content</label>
+		<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+		<depends>
+			<field id="active">1</field>
+		</depends>
+		<comment></comment>
+	</field>
+
+	<field id="search" translate="label" type="select" sortOrder="22" showInDefault="1" showInWebsite="1" showInStore="0">
+		<label>Search</label>
+		<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+		<depends>
+			<field id="active">1</field>
+		</depends>
+		<comment></comment>
+	</field>
+
+	<field id="add_to_cart" translate="label" type="select" sortOrder="23" showInDefault="1" showInWebsite="1" showInStore="0">
+		<label>Add to Cart</label>
+		<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+		<depends>
+			<field id="active">1</field>
+		</depends>
+		<comment></comment>
+	</field>
+
+	<field id="initiate_checkout" translate="label" type="select" sortOrder="24" showInDefault="1" showInWebsite="1" showInStore="0">
+		<label>Initiate Checkout</label>
+		<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+		<depends>
+			<field id="active">1</field>
+		</depends>
+		<comment></comment>
+	</field>
+
+	<field id="purchase" translate="label" type="select" sortOrder="25" showInDefault="1" showInWebsite="1" showInStore="0">
+		<label>Purchase</label>
+		<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+		<depends>
+			<field id="active">1</field>
+		</depends>
+		<comment></comment>
+	</field>
+</include>
